@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 601.0, 141.0, 945.0, 830.0 ],
-		"bglocked" : 0,
+		"rect" : [ 601.0, 141.0, 943.0, 811.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
 		"default_fontface" : 0,
@@ -2238,6 +2238,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-18",
 					"linecount" : 3,
@@ -2265,6 +2266,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-16",
 					"linecount" : 3,
@@ -2285,13 +2287,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 24.0, 649.0, 130.0, 29.0 ],
+					"patching_rect" : [ 24.0, 655.0, 130.0, 29.0 ],
 					"text" : "jit.matrix shape"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-11",
 					"linecount" : 3,
@@ -2356,6 +2359,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-1",
 					"linecount" : 2,
@@ -2371,6 +2375,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
+					"background" : 1,
 					"bgcolor" : [ 0.3, 0.5, 0.3, 0.5 ],
 					"id" : "obj-79",
 					"maxclass" : "panel",
@@ -2385,6 +2390,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
+					"background" : 1,
 					"bgcolor" : [ 0.5, 0.3, 0.3, 0.5 ],
 					"id" : "obj-78",
 					"maxclass" : "panel",
@@ -2399,6 +2405,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
+					"background" : 1,
 					"bgcolor" : [ 0.3, 0.3, 0.5, 0.5 ],
 					"id" : "obj-75",
 					"maxclass" : "panel",

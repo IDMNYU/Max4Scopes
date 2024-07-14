@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 410.0, 87.0, 1276.0, 950.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
 		"default_fontface" : 0,
@@ -40,11 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 664.0, 825.0, 428.0, 49.0 ],
+					"text" : ";\rmax launchbrowser https://paulbourke.net/geometry/"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"patching_rect" : [ 181.0, 723.0, 50.0, 29.0 ],
 					"text" : "r plur"
 				}
 
@@ -67,8 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 790.0, 380.0, 27.0 ],
-					"text" : "Paul Bourke : https://paulbourke.net/geometry/"
+					"patching_rect" : [ 664.0, 787.0, 107.0, 27.0 ],
+					"text" : "Paul Bourke"
 				}
 
 			}
@@ -398,6 +412,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2173,13 +2188,14 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 868.0, 271.0, 69.0 ],
+					"patching_rect" : [ 15.0, 865.0, 271.0, 69.0 ],
 					"text" : "jit.gl.mesh n @lighting_enable 1 @smooth_shading 1 @poly_mode 1 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2276,6 +2292,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2343,6 +2360,66 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 192.0, 299.0, 75.0, 29.0 ],
 					"text" : "jit.matrix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.317647058823529, 0.274509803921569, 0.72156862745098, 0.54 ],
+					"id" : "obj-8",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 557.0, 18.0, 709.0, 678.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.72156862745098, 0.274509803921569, 0.274509803921569, 0.54 ],
+					"id" : "obj-7",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 484.0, 459.0, 461.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.72156862745098, 0.274509803921569, 0.709803921568627, 0.54 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 111.5, 29.5, 459.0, 461.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.274509803921569, 0.666666666666667, 0.72156862745098, 0.54 ],
+					"id" : "obj-5",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 24.0, 290.0, 156.0 ],
+					"proportion" : 0.5
 				}
 
 			}
