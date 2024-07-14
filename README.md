@@ -5,6 +5,6 @@ Step 1: Find yourself an [analog oscilloscope](https://www.ebay.com/sch/i.html?_
 
 Step 2: Find yourself an audio interface with [DC-coupled outputs](https://www.sweetwater.com/sweetcare/articles/which-audio-interfaces-are-dc-coupled/).
 
-Step 3: Connect your computer to your audio interface and the outputs of the interface to the inputs of the oscilloscope. Most scopes use BNC / Coaxial inputs, so you might need an [adaptor](https://www.amazon.com/Pomona-1297-Adapter-Phono-Plug/dp/B06Y1HDSCS/) or a [funky cable](https://www.ebay.com/itm/225089604432).
+Step 3: Connect your computer to your audio interface and the outputs of the interface to the inputs of the oscilloscope. Most scopes use BNC / Coaxial inputs, so you might need an [adaptor](https://www.amazon.com/Pomona-1297-Adapter-Phono-Plug/dp/B06Y1HDSCS/) or a [funky cable](https://www.ebay.com/itm/225089604432). Remember to select your audio interface in the *Audio Settings...* in Max.
 
 Step 4: Have fun.
