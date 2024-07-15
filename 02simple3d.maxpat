@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 456.0, 139.0, 945.0, 733.0 ],
+		"rect" : [ 622.0, 139.0, 945.0, 733.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -295,7 +295,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -1766,7 +1766,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1939,6 +1939,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
@@ -2040,7 +2047,27 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "jit.*.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.+.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.atan2.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.cos.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jit.hypot.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.sin.mxo",
 				"type" : "iLaX"
 			}
  ],
